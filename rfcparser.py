@@ -85,6 +85,8 @@ _valid_types = {
         "DOA",
         "AMTRELAY",
         "TA",
+        # Extra
+        "ANAME",
     ]
 }
 
@@ -352,6 +354,7 @@ mail3         IN  A     192.0.2.5             ; IPv4 address for mail3.example.c
 
     with open("/tmp/codethink.co.uk") as f:
         tryzone(f)
+
 
 if __name__ == "__main__":
     main()
